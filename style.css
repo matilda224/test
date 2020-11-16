@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+#head {
+	background-image: url(images/hennaHorisont.jpg);
+	background-repeat: round;
+	/*För att bilden inte ska upprepas, och den kommer att tryckas ihop/dras ut ifall den inte är på hela skärmen*/
+}
+
+/* {
+	font-family: 'Architects Daughter', cursive;
+}*/
+
+
+.navbar {
+	padding: 10px;
+}
+
+li a {
+	color: #fff;
+}
+
+
+.navbar-brand {
+	font-size: 29px;
+	font-weight: bold;
+	font-family: 'Ubuntu';
+}
+
+.nav-item {
+	padding: 0 18px;
+}
+
+/*Head*/
+
+.head-start {
+	color: white;
+	text-align: center;
+	padding: 0 25% 0 25%;
+}
+
+.head-rubrik {
+	font-size: 70px;
+}
+
+.head-start-marker {
+	color: white;
+	text-align: center;
+}
+
+.head-rubrik-marker {
+	font-size: 1000%;
+	padding: 10% 20%;
+}
+
+
+/*Pen segment*/
+
+.pen-icon {
+	padding: 0 12px 0 0;
+}
+
+.pen-typer {
+	text-align: center;
+	padding: 2% 10%;
+	background-color: white;
+}
+
+.pen-typer-box {
+	padding: 40px 40px 80px 40px;
+}
+
+.btn-pen {
+	background-color: #fccbcb !important;
+}
+
+.btn-pen:hover {
+	background-color: #d9adad !important;
+}
+
+/*Citat*/
+
+#citatEtt {
+	background-color: #d9adad;
+	padding: 40px 0;
+	text-align: center;
+	border-radius: 90px;
+}
+
+#citatTvå {
+	background-color: #ad9d9d;
+	padding: 40px 0;
+	text-align: center;
+	border-radius: 90px;
+}
+
+#citatTre {
+	background-color: #838383;
+	padding: 40px 0;
+	text-align: center;
+	border-radius: 90px;
+}
+
+/*Carousel*/
+
+.carousel-radius {
+	border-radius: 300px;
+}
+
+/*Placering*/
+
+.placering {
+	padding: 2px 6px;
+	color: black;
+}
+
+/*Progress*/
+
+.progress-bar {
+	background-color: #838383 !important;
+}
+
+/*Progress*/
+
+/*Marker*/
+
+#progress-marker {
+	padding: 20px;
+	text-align: center;
+}
+
+.progress-marker-h1 {
+	color: #838383;
+	font-size: 50px;
+}
+
+.progress-marker-text {
+	text-align: center;
+	color: #838383;
+}
+
+/*Marker*/
+
+#marker-brand {
+	text-align: center;
+}
+
+.marker-brand-favorites {
+	padding: 4% 15%;
+}
+
+.marker-brand-favorites-styck {
+	padding: 2%;
+}
+
+
+/*Progress*/
+
+/*Brush*/
+
+#progress-brush {
+	padding: 20px;
+	text-align: center;
+}
+
+.progress-brush-h1 {
+	color: #838383;
+	font-size: 50px;
+}
+
+.progress-brush-text {
+	text-align: center;
+	color: #838383;
+}
+
+/*Brush*/
+
+#brush-brand {
+	text-align: center;
+}
+
+.brush-brand-favorites {
+	padding: 4% 15%;
+}
+
+.brush-brand-favorites-styck {
+	padding: 2%;
+}
+
+
+/*Progress*/
+
+/*fineliner*/
+
+#progress-fineliner {
+	padding: 20px;
+	text-align: center;
+}
+
+.progress-fineliner-h1 {
+	color: #838383;
+	font-size: 50px;
+}
+
+.progress-fineliner-text {
+	text-align: center;
+	color: #838383;
+}
+
+/*Brush*/
+
+#fineliner-brand {
+	text-align: center;
+}
+
+.fineliner-brand-favorites {
+	padding: 4% 15%;
+}
+
+.fineliner-brand-favorites-styck {
+	padding: 2%;
+}
+
+
+/*Progress*/
+
+/*Fineliner*/
+
+#progress-fineliner {
+	padding: 20px;
+	text-align: center;
+}
+
+.progress-fineliner-h1 {
+	color: #838383;
+	font-size: 50px;
+}
+
+.progress-fineliner-text {
+	text-align: center;
+	color: #838383;
+}
+
+/*Brush*/
+
+#fineliner-brand {
+	text-align: center;
+}
+
+.fineliner-brand-favorites {
+	padding: 4% 15%;
+}
+
+.fineliner-brand-favorites-styck {
+	padding: 2%;
+}
+
+
+/*Progress*/
+
+/*gel*/
+
+#progress-gel {
+	padding: 20px;
+	text-align: center;
+}
+
+.progress-gel-h1 {
+	color: #838383;
+	font-size: 50px;
+}
+
+.progress-gel-text {
+	text-align: center;
+	color: #838383;
+}
+
+/*Brush*/
+
+#gel-brand {
+	text-align: center;
+}
+
+.gel-brand-favorites {
+	padding: 4% 15%;
+}
+
+.gel-brand-favorites-styck {
+	padding: 2%;
+}
+
+
+/*Progress*/
+
+/*highlighter*/
+
+#progress-highlighter {
+	padding: 20px;
+	text-align: center;
+}
+
+.progress-highlighter-h1 {
+	color: #838383;
+	font-size: 50px;
+}
+
+.progress-highlighter-text {
+	text-align: center;
+	color: #838383;
+}
+
+/*Brush*/
+
+#highlighter-brand {
+	text-align: center;
+}
+
+.highlighter-brand-favorites {
+	padding: 4% 15%;
+}
+
+.highlighter-brand-favorites-styck {
+	padding: 2%;
+}
+
+
+/*Progress*/
+
+/*multipennor*/
+
+#progress-multipennor {
+	padding: 20px;
+	text-align: center;
+}
+
+.progress-multipennor-h1 {
+	color: #838383;
+	font-size: 50px;
+}
+
+.progress-multipennor-text {
+	text-align: center;
+	color: #838383;
+}
+
+/*Brush*/
+
+#multipennor-brand {
+	text-align: center;
+}
+
+.multipennor-brand-favorites {
+	padding: 4% 15%;
+}
+
+.multipennor-brand-favorites-styck {
+	padding: 2%;
+}
+
+/*Form*/
+
+#form {
+	padding: 10%;
+}
+
+/*footer*/
+
+#footer {
+	background-color: #fff;
+	text-align: center;
+	color: black;
+	padding: 4% 0 4% 0;
+}
+
+.container {
+	padding: 14px 14px 0 14px !important;
+}
